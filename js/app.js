@@ -8,8 +8,8 @@ $(document).ready(function() {
     $('.ryu-still').show();
   })
   .mousedown(function() {
-    console.log('mousedown')
-    playHadouken();    
+    console.log('mousedown');
+    playHadouken();
     $('.ryu-ready').hide();
     $('.ryu-throwing').show();
     $('.hadouken').finish().show()
@@ -40,7 +40,7 @@ $(document).ready(function(){
             $('.ryu-ready').hide();
             $('.ryu-throwing').hide();
             $('.hadouken').hide();
-            $('.ryu-cool').show(); 
+            $('.ryu-cool').show();
         }
     });
     $('.ryu').keyup(function(e) {
